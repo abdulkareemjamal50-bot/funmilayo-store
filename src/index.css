@@ -1,0 +1,497 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightseagreen;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.image {
+  width: 25%;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  color: white;
+}
+.menu {
+  font-size: 72px;
+  color: white;
+  display: none;
+}
+header {
+  background: url(assets/life.jpg);
+  height: 100vh;
+  background-size: cover;
+  margin-top: 20px;
+}
+.div {
+  background-color: rgba(0, 0, 0, 0.171);
+  height: 100vh;
+  text-align: center;
+}
+.h2 {
+  color: white !important;
+  padding-top: 200px;
+  font-size: 70px !important;
+  font-family: "font";
+}
+.autoshow {
+  animation: text-appear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 100vh;
+}
+@keyframes text-appear {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+.but {
+  padding: 10px 30px;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "-apple-system";
+  margin-left: 100px;
+  margin-top: 30px;
+}
+@font-face {
+  font-family: "font";
+  src: url("src/Nosifer/Nosifer-Regular.ttf");
+}
+h3 {
+  color: rgba(3, 58, 58, 0.842);
+  font-family: "-apple-system";
+  text-align: center;
+  font-size: 20px;
+  padding-top: 70px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+.pro {
+  color: rgba(3, 58, 58, 0.842);
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 40px;
+  animation: text-appear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 100vh;
+}
+.main {
+  background-color: rgba(0, 0, 0, 0.171);
+  padding-bottom: 90px;
+}
+.flex {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.flex p {
+  color: rgb(3, 41, 41);
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.fourth-style {
+  border: 1px solid rgb(3, 71, 68);
+  background-color: rgb(3, 71, 68);
+  margin-top: 100px;
+  margin-left: 130px;
+  margin-right: 130px;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  width: 80%;
+}
+.fourth-style h2 {
+  padding-left: 30px;
+  padding-top: 60px;
+}
+.fourth-style button {
+  color: white;
+  background-color: lightseagreen;
+  border: none;
+  padding: 17px;
+  /* border: 1px solid black; */
+  border-radius: 7px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+.fourth-style button:hover {
+  border-color: aqua;
+}
+.fourth-style img {
+  padding-left: 100px;
+  margin-top: -50px;
+  margin-bottom: -60px;
+}
+.nrow {
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.about {
+  background: url(assets/oket.jpg);
+  height: 60vh;
+  background-size: cover;
+}
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.row {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.shop {
+  color: lightseagreen;
+  text-align: center;
+  padding: 30px;
+  font-family: "-apple-system";
+}
+.by {
+  padding: 30px;
+  text-align: center;
+  color: rgba(3, 58, 58, 0.842);
+  text-align: center;
+  font-size: 40px;
+}
+.nav-link-custom {
+  text-decoration: none;
+}
+.nav-link-custom:hover {
+  text-decoration: none;
+  opacity: 0.85;
+}
+.map {
+  width: 80%;
+  height: 450px;
+  border-radius: 20px;
+}
+.loc {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  word-spacing: 0.2px;
+  color: rgb(53, 19, 5);
+  background-color: white;
+  padding-top: 15vh;
+}
+.con {
+  background-color: rgba(0, 0, 0, 0.171);
+}
+.map-container {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.cat {
+  padding-top: 50px !important;
+  background-color: white;
+}
+.contact-button,
+.btns {
+  color: lightseagreen !important;
+  border: 2px solid lightseagreen;
+  cursor: pointer;
+  background-color: transparent !important;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-button:hover,
+.btns:hover {
+  background-color: lightseagreen !important;
+  color: white !important;
+}
+.text {
+  color: rgb(12, 72, 252);
+}
+.flex img {
+  transition: ease-in-out 0.5s;
+}
+.flex img:hover {
+  transform: scale(1.05);
+  margin-inline: 20px;
+}
+footer {
+  background-color: rgb(3, 71, 68);
+}
+.sixth-selection {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.dive {
+  padding: 10px 10px 20px;
+  background-color: rgb(3, 71, 68);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-nav {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  background: rgb(5, 94, 89);
+  padding: 20px;
+  width: 200px;
+  /* height: 70vh; */
+}
+
+.mobile-nav ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+}
+
+.mobile-nav li {
+  margin-bottom: 10px;
+}
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-nav a:hover {
+  color: lightseagreen;
+}
+.links {
+  display: none;
+}
+.Bars {
+  display: block;
+}
+.foot {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.funm {
+  width: 20%;
+}
+.autorotate {
+  animation: AutoRotateAnimation;
+  animation-timeline: view();
+}
+@keyframes AutoRotateAnimation {
+  0% {
+    transform: rotate(180deg);
+    opacity: 0.2;
+  }
+  10% {
+    transform: rotate(120deg);
+    opacity: 0.5;
+  }
+  20% {
+    transform: rotate(60deg);
+    opacity: 0.7;
+  }
+  40% {
+    transform: rotate(00deg);
+    opacity: 0.9;
+  }
+  60% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  /* to {
+    transform: rotate(360deg);
+  } */
+}
+.flex0 {
+  display: flex;
+  gap: 10px;
+}
+.flex3 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+}
+.flex3 ul {
+  list-style-type: circle;
+}
+.flex4 {
+  display: flex;
+  padding-left: 60px;
+  color: white;
+  gap: 10px;
+}
+.del {
+  font-size: 30px;
+  color: orangered;
+}
+.flex6 {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding-bottom: 70px;
+}
+.sh {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: rgb(53, 19, 5);
+  font-family: "Times New Roman", Times, serif;
+}
+.contact {
+  color: rgb(53, 19, 5);
+  font-family: "Times New Roman", Times, serif;
+}
+.rch {
+  color: lightseagreen;
+  font-family: "Times New Roman", Times, serif;
+}
+.che {
+  text-align: center;
+  padding-top: 10px;
+  color: lightseagreen;
+}
+.tit {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(53, 19, 5);
+}
+.cart {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: lightseagreen;
+  padding-top: 40px;
+}
+.shake {
+  color: lightseagreen;
+  font-size: 90px;
+  padding-top: 30px;
+}
+.fle {
+  display: flex;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+.row {
+  background-color: transparent;
+  align-items: center;
+  padding-top: 20px;
+}
+.imagereveal {
+  animation: imageReveal both;
+  animation-timeline: view(10% 5);
+}
+@keyframes imageReveal {
+  from {
+    filter: saturate(0) contrast(4) brightness(0.1) blur(5px);
+    opacity: 0;
+    scale: 0.95;
+    translate: 0 4rem;
+  }
+  to {
+    filter: none;
+    opacity: 1;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+.offer {
+  text-align: center;
+  color: lightseagreen;
+  padding: 20px;
+}
+.prot {
+  color: rgba(3, 58, 58, 0.842);
+  font-size: 40px;
+  animation: text-appear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 100vh;
+}
+.form {
+  padding-bottom: 40px;
+}
+.frm {
+  padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .h2 {
+    font-size: 30px !important;
+  }
+  .main {
+    padding: 20px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .fourth-style img {
+    display: none;
+  }
+  .fourth-style {
+    margin: 0 auto;
+  }
+  .fourth-style button {
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav {
+    padding-block: 0;
+  }
+  .menu {
+    display: block;
+  }
+  .funm {
+    width: 40%;
+  }
+  .foot {
+    font-size: 10px;
+  }
+  .dive {
+    flex-direction: column;
+    text-align: center;
+  }
+  .flex3 {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  .flex6 {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .flex2 {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .frm {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
