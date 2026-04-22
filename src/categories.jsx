@@ -45,7 +45,7 @@ import dia10 from "./assets/miksiref.jpg";
 import dia11 from "./assets/milksi.webp";
 import dia12 from "./assets/peakbigcar.png";
 import dia13 from "./assets/peakcar.jpg";
-import dia14 from "./assets/peakfilled.jpg";
+// import dia14 from "./assets/peakfilled.jpg";
 import dia15 from "./assets/peakliq.webp";
 import dia16 from "./assets/threecrown.png";
 import dia17 from "./assets/threecrowncar.jpg";
@@ -266,7 +266,7 @@ function Categories() {
               dia11,
               dia12,
               dia13,
-              dia14,
+              // dia14,
               dia15,
               dia16,
               dia17,
