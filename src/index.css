@@ -75,7 +75,7 @@ header {
 }
 @font-face {
   font-family: "font";
-  src: url("src/Nosifer/Nosifer-Regular.ttf");
+  src: url("../public/Nosifer/Nosifer-Regular.ttf");
 }
 h3 {
   color: rgba(3, 58, 58, 0.842);
