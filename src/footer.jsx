@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 import funmi from "./assets/funmi.png";
 import { RiEBike2Fill } from "react-icons/ri";
 import { TiShoppingCart } from "react-icons/ti";
@@ -20,12 +21,22 @@ const Footer = () => {
             <div>
               <h2>Quick Navigation Links</h2>
               <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Categories</li>
-                <li>Cart</li>
-                <li>Contact</li>
-              </ul>
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about">About</NavLink>
+              </li>
+              <li>
+                <NavLink to="/categories">Categories</NavLink>
+              </li>
+              <li>
+                <NavLink to="/cart">Cart</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact</NavLink>
+              </li>
+            </ul>
             </div>
             <div>
               <h2>Product Categories Section</h2>
@@ -65,14 +76,12 @@ const Footer = () => {
         <div className="dive">
           <h4 style={{ color: "aliceblue" }}>
             Allright Reserved © {new Date().getFullYear()}
-            <span style={{ color: "skyblue" }}> IYANDA001</span>
+            <span style={{ color: "skyblue" }}> <a href="https://jamaldeen-portfolio.netlify.app/" target="#">IYANDA001</a> </span>
           </h4>
           <ul className="sixth-selection">
-            <li>Home</li>
-            <li>About</li>
-            <li>Categories</li>
-            <li>Cart</li>
-            <li>Contact</li>
+            <li>Privacy policy</li>
+            <li>Terms & Conditions</li>
+            <li>Return Policy</li>
           </ul>
         </div>
       </footer>

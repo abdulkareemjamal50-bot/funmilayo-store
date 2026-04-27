@@ -29,12 +29,12 @@ nav ul {
   color: white;
   display: none;
 }
-header {
+/* header {
   background: url(assets/life.jpg);
   height: 100vh;
   background-size: cover;
-  margin-top: 20px;
-}
+  margin-top: 20px; */
+
 .div {
   background-color: rgba(0, 0, 0, 0.171);
   height: 100vh;
@@ -43,6 +43,7 @@ header {
 .h2 {
   color: white !important;
   padding-top: 200px;
+  padding-bottom: 40px;
   font-size: 70px !important;
   font-family: "font";
 }
@@ -72,6 +73,7 @@ header {
   font-family: "-apple-system";
   margin-left: 100px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 @font-face {
   font-family: "font";
@@ -287,11 +289,12 @@ footer {
 .foot {
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   font-family: "Times New Roman", Times, serif;
 }
 .funm {
   width: 20%;
+  padding-top: 30px;
 }
 .autorotate {
   animation: AutoRotateAnimation;
@@ -335,7 +338,7 @@ footer {
   padding-top: 20px;
 }
 .flex3 ul {
-  list-style-type: circle;
+  list-style-type: none;
 }
 .flex4 {
   display: flex;
@@ -436,6 +439,44 @@ footer {
 }
 .frm {
   padding-left: 20px;
+}
+.carousel-wrapper {
+  height: 100vh;
+  position: relative;
+}
+.header-images {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.308);
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2;
+  bottom: 30%;
+}
+
+.h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+   font-size: 70px !important;
+  font-family: "font";
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.p {
+  font-size: 1.2rem;
+  color: #ddd;
 }
 
 @media (max-width: 600px) {

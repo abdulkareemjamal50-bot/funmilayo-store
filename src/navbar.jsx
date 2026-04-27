@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { NavLink } from "react-bootstrap";
 import funmi from "./assets/funmi.png";
 import { NavLink } from "react-router";
 import { RiMenu3Line } from "react-icons/ri";
