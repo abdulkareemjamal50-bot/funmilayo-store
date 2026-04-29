@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./navbar";
-import Header from "./header";
-import Main2 from "./main2";
-import About from "./About";
-import Categories from "./categories";
-import Cart from "./cart";
-import Contact from "./contact";
+import Navbar from "./components/navbar";
+import Header from "./components/header";
+import Main2 from "./pages/main2";
+import About from "./pages/About";
+import Categories from "./pages/categories";
+import Cart from "./components/cart";
+import Contact from "./pages/contact";
 
 const App = () => {
   return (

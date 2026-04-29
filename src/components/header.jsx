@@ -1,19 +1,13 @@
 import React from "react";
 import  Carousel from "react-bootstrap/Carousel";
-import funmi from "./assets/life.jpg"
-import funmi2 from "./assets/funmi1.png"
-import funmi3 from "./assets/funmi2.png"
+import funmi from "../assets/life.jpg"
+import funmi2 from "../assets/funmi1.png"
+import funmi3 from "../assets/funmi2.png"
+import { NavLink } from "react-router";
 
 const Header = () => {
-  return <header>
-    {/* <div className="div">
-    <h2 className="h2">
-      WELCOME TO FUNMILAYO STORE
-    </h2>
-    <button className="but">
-       Order from us
-    </button>
-    </div> */}
+  return(
+   <header>
     <div>
      < Carousel data-bs-theme="light">
         <Carousel.Item>
@@ -31,9 +25,9 @@ const Header = () => {
       WELCOME TO FUNMILAYO STORE
     </h2>
     <button className="but">
-       Order from us
+      <NavLink to="/cart"> Order from us &rarr;</NavLink>
     </button>
-            </Carousel.Caption>
+          </Carousel.Caption>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -61,7 +55,6 @@ const Header = () => {
               />
             </div>
             <div className="overlay"></div>
-
             <Carousel.Caption>
               <h1 className="h1">Quality goods & items you can trust</h1>
             </Carousel.Caption>
@@ -69,7 +62,7 @@ const Header = () => {
         </Carousel.Item>
       </Carousel>
     </div>
-  </header>;
+  </header>);
 };
 
 export default Header;

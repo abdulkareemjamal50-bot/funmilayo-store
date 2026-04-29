@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import funmi from "./assets/funmi.png";
+import funmi from "../assets/funmi.png";
 import { NavLink } from "react-router";
 import { RiMenu3Line } from "react-icons/ri";
 import { FaBars } from "react-icons/fa";

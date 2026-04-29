@@ -1,8 +1,8 @@
 import React from "react";
-import pic from "./assets/whole.jpg";
-import logo from "./assets/reta.png";
-import omni from "./assets/omni.png";
-import money from "./assets/money.png";
+import pic from "../assets/whole.jpg";
+import logo from "../assets/reta.png";
+import omni from "../assets/omni.png";
+import money from "../assets/money.png";
 
 const About = () => {
   return (

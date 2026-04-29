@@ -135,13 +135,12 @@ h3 {
   background-color: lightseagreen;
   border: none;
   padding: 17px;
-  /* border: 1px solid black; */
   border-radius: 7px;
   margin-left: 30px;
   margin-top: 80px;
 }
 .fourth-style button:hover {
-  border-color: aqua;
+  border-color: green !important;
 }
 .fourth-style img {
   padding-left: 100px;
@@ -226,7 +225,7 @@ h3 {
   color: white !important;
 }
 .text {
-  color: rgb(12, 72, 252);
+  color: lightseagreen;
 }
 .flex img {
   transition: ease-in-out 0.5s;
@@ -355,7 +354,7 @@ footer {
   justify-content: center;
 }
 .container {
-  padding-bottom: 70px;
+  padding-bottom: 10px;
 }
 .sh {
   padding-top: 70px;
@@ -395,6 +394,9 @@ footer {
 .fle {
   display: flex;
 }
+.apply{
+  padding-top: 70px;
+}
 .category-card:hover {
   transform: translateY(-5px);
   transition: 0.3s ease;
@@ -403,6 +405,7 @@ footer {
   background-color: transparent;
   align-items: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .imagereveal {
   animation: imageReveal both;
@@ -478,7 +481,10 @@ footer {
   font-size: 1.2rem;
   color: #ddd;
 }
-
+a {
+  color: inherit !important;     
+  text-decoration: none !important; 
+}
 @media (max-width: 600px) {
   .h2 {
     font-size: 30px !important;

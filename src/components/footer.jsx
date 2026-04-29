@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
-import funmi from "./assets/funmi.png";
+import funmi from "../assets/funmi.png";
 import { RiEBike2Fill } from "react-icons/ri";
 import { TiShoppingCart } from "react-icons/ti";
 import { GiReceiveMoney } from "react-icons/gi";

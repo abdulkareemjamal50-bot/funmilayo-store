@@ -112,7 +112,7 @@ function Contact() {
               <IoLogoWhatsapp className="fs-2" />
               <h5 style={{ fontWeight: "600" }}>Chat on WhatsApp</h5>
             </div>
-            <p style={{ margin: 0 }}>
+            <p  className="text" style={{ margin: 0 }}>
               <a href="https://Wa.me/+2349024759576" target="_blank">
                 (+234) 9024759576
               </a>
